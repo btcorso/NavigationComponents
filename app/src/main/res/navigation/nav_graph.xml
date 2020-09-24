@@ -8,17 +8,15 @@
         android:id="@+id/newDoacoesFragment"
         android:name="com.example.navigationcomponents.NewDoacoesFragment"
         android:label="fragment_new_doacoes"
-        tools:layout="@layout/fragment_new_doacoes" >
+        tools:layout="@layout/fragment_new_doacoes">
         <action
             android:id="@+id/action_newDoacoesFragment_to_newLivrosFragment"
             app:destination="@id/newLivrosFragment"
-            app:popEnterAnim="@anim/slide_in_left"
-            app:popExitAnim="@anim/slide_in_right"/>
+            app:enterAnim="@anim/slide_in_right"/>
         <action
             android:id="@+id/action_newDoacoesFragment_to_newRoupaFragment"
             app:destination="@id/newRoupaFragment"
-            app:popEnterAnim="@anim/slide_in_left"
-            app:popExitAnim="@anim/slide_in_right"/>
+            app:enterAnim="@anim/slide_in_right"/>
     </fragment>
     <fragment
         android:id="@+id/newLivrosFragment"

@@ -36,14 +36,15 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_below="@id/txt_doar_hoje"
-            android:layout_marginStart="70dp"
-            android:layout_marginLeft="70dp"
+            android:layout_marginStart="60dp"
+            android:layout_marginLeft="60dp"
             android:layout_marginTop="50dp"
             android:adjustViewBounds="true"
             android:background="@color/Creme"
             android:src="@drawable/roupa_2"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/txt_doar_hoje" />
+            app:layout_constraintTop_toBottomOf="@+id/txt_doar_hoje"
+            tools:adjustViewBounds="true" />
 
         <TextView
             android:id="@+id/txtRoupa"
@@ -77,8 +78,8 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="50dp"
-            android:layout_marginEnd="70dp"
-            android:layout_marginRight="70dp"
+            android:layout_marginEnd="60dp"
+            android:layout_marginRight="60dp"
             android:background="@color/Creme"
             android:src="@drawable/brinquedo"
             app:layout_constraintEnd_toEndOf="parent"
@@ -134,7 +135,7 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="30dp"
             android:layout_marginBottom="50dp"
-            android:background="@color/Branco"
+            android:background="@color/Creme"
             android:text="Outros"
             android:textColor="@color/Verde"
             android:textSize="14sp"
