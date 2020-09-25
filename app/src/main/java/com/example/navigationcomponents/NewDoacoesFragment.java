@@ -33,6 +33,9 @@ public class NewDoacoesFragment extends Fragment {
         navController = Navigation.findNavController(view);
         ImageButton roupa = view.findViewById(R.id.imabtnRoupa);
         ImageButton livro = view.findViewById(R.id.imabtnLivros);
+        ImageButton brinquedo = view.findViewById(R.id.imabtnToy);
+        ImageButton movel = view.findViewById(R.id.imabtnMoveis);
+
 
         roupa.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -45,6 +48,20 @@ public class NewDoacoesFragment extends Fragment {
             @Override
             public void onClick(View view) {
                 navController.navigate(R.id.action_newDoacoesFragment_to_newLivrosFragment);
+            }
+        });
+
+        brinquedo.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                navController.navigate(R.id.action_newDoacoesFragment_to_newBrinquedoFragment);
+            }
+        });
+
+        movel.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                navController.navigate(R.id.action_newDoacoesFragment_to_newMoveisFragment);
             }
         });
 

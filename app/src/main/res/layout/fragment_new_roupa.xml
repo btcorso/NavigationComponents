@@ -56,10 +56,10 @@
                 android:text="Descreva seu item:"
                 android:textSize="20dp"
                 app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toBottomOf="@+id/spnEstadoRoupa" />
+                app:layout_constraintTop_toBottomOf="@+id/spnCondicaoRoupa" />
 
             <Spinner
-                android:id="@+id/spnEstadoRoupa"
+                android:id="@+id/spnCondicaoRoupa"
                 android:layout_width="0dp"
                 android:layout_height="45dp"
                 android:layout_marginStart="25dp"

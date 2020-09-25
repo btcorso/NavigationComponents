@@ -17,6 +17,14 @@
             android:id="@+id/action_newDoacoesFragment_to_newRoupaFragment"
             app:destination="@id/newRoupaFragment"
             app:enterAnim="@anim/slide_in_right"/>
+        <action
+            android:id="@+id/action_newDoacoesFragment_to_newMoveisFragment"
+            app:destination="@id/newMoveisFragment"
+            app:enterAnim="@anim/slide_in_right"/>
+        <action
+            android:id="@+id/action_newDoacoesFragment_to_newBrinquedoFragment"
+            app:destination="@id/newBrinquedoFragment"
+            app:enterAnim="@anim/slide_in_right"/>
     </fragment>
     <fragment
         android:id="@+id/newLivrosFragment"
@@ -28,4 +36,14 @@
         android:name="com.example.navigationcomponents.NewRoupaFragment"
         android:label="fragment_new_roupa"
         tools:layout="@layout/fragment_new_roupa" />
+    <fragment
+        android:id="@+id/newBrinquedoFragment"
+        android:name="com.example.navigationcomponents.NewBrinquedoFragment"
+        android:label="fragment_new_brinquedo"
+        tools:layout="@layout/fragment_new_brinquedo" />
+    <fragment
+        android:id="@+id/newMoveisFragment"
+        android:name="com.example.navigationcomponents.NewMoveisFragment"
+        android:label="fragment_new_moveis"
+        tools:layout="@layout/fragment_new_moveis" />
 </navigation>
