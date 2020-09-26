@@ -20,9 +20,15 @@
 
     <com.google.android.material.bottomnavigation.BottomNavigationView
         android:id="@+id/nav_bottom"
+        app:layout_constraintBottom_toBottomOf="parent"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        app:layout_constraintBottom_toBottomOf="parent"
-        android:background="#FF8C00"/>
+        android:layout_alignParentBottom="true"
+        app:menu="@menu/bottom_nav"
+        android:background="@color/Laranja_Escuro"
+        app:itemTextColor="@color/Creme"
+        app:itemIconTint="@color/Creme"
+        />
+
 
 </androidx.constraintlayout.widget.ConstraintLayout>

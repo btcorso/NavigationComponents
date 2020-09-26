@@ -46,4 +46,14 @@
         android:name="com.example.navigationcomponents.NewMoveisFragment"
         android:label="fragment_new_moveis"
         tools:layout="@layout/fragment_new_moveis" />
+    <fragment
+        android:id="@+id/doacaoUnicaFragment"
+        android:name="com.example.navigationcomponents.DoacaoUnicaFragment"
+        android:label="fragment_doacao_unica"
+        tools:layout="@layout/fragment_doacao_unica" />
+    <fragment
+        android:id="@+id/doacoesCampanhaFragment"
+        android:name="com.example.navigationcomponents.DoacoesCampanhaFragment"
+        android:label="fragment_doacoes_campanha"
+        tools:layout="@layout/fragment_doacoes_campanha" />
 </navigation>
