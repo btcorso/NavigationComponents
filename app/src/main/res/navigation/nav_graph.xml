@@ -30,22 +30,42 @@
         android:id="@+id/newLivrosFragment"
         android:name="com.example.navigationcomponents.NewLivrosFragment"
         android:label="fragment_new_livros"
-        tools:layout="@layout/fragment_new_livros" />
+        tools:layout="@layout/fragment_new_livros" >
+        <action
+            android:id="@+id/action_newLivrosFragment_to_doacaoConcluidaFragment"
+            app:destination="@id/doacaoConcluidaFragment"
+            app:enterAnim="@anim/slide_in_right"/>
+    </fragment>
     <fragment
         android:id="@+id/newRoupaFragment"
         android:name="com.example.navigationcomponents.NewRoupaFragment"
         android:label="fragment_new_roupa"
-        tools:layout="@layout/fragment_new_roupa" />
+        tools:layout="@layout/fragment_new_roupa" >
+        <action
+            android:id="@+id/action_newRoupaFragment_to_doacaoConcluidaFragment"
+            app:destination="@id/doacaoConcluidaFragment"
+            app:enterAnim="@anim/slide_in_right"/>
+    </fragment>
     <fragment
         android:id="@+id/newBrinquedoFragment"
         android:name="com.example.navigationcomponents.NewBrinquedoFragment"
         android:label="fragment_new_brinquedo"
-        tools:layout="@layout/fragment_new_brinquedo" />
+        tools:layout="@layout/fragment_new_brinquedo" >
+        <action
+            android:id="@+id/action_newBrinquedoFragment_to_doacaoConcluidaFragment"
+            app:destination="@id/doacaoConcluidaFragment"
+            app:enterAnim="@anim/slide_in_right"/>
+    </fragment>
     <fragment
         android:id="@+id/newMoveisFragment"
         android:name="com.example.navigationcomponents.NewMoveisFragment"
         android:label="fragment_new_moveis"
-        tools:layout="@layout/fragment_new_moveis" />
+        tools:layout="@layout/fragment_new_moveis" >
+        <action
+            android:id="@+id/action_newMoveisFragment_to_doacaoConcluidaFragment"
+            app:destination="@id/doacaoConcluidaFragment"
+            app:enterAnim="@anim/slide_in_right"/>
+    </fragment>
     <fragment
         android:id="@+id/doacaoUnicaFragment"
         android:name="com.example.navigationcomponents.DoacaoUnicaFragment"
@@ -56,4 +76,14 @@
         android:name="com.example.navigationcomponents.DoacoesCampanhaFragment"
         android:label="fragment_doacoes_campanha"
         tools:layout="@layout/fragment_doacoes_campanha" />
+    <fragment
+        android:id="@+id/doacaoConcluidaFragment"
+        android:name="com.example.navigationcomponents.DoacaoConcluidaFragment"
+        android:label="fragment_doacao_concluida"
+        tools:layout="@layout/fragment_doacao_concluida" >
+        <action
+            android:id="@+id/action_doacaoConcluidaFragment_to_newDoacoesFragment"
+            app:destination="@id/newDoacoesFragment"
+            app:enterAnim="@anim/slide_in_left"/>
+    </fragment>
 </navigation>
